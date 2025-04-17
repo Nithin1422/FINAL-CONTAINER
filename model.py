@@ -122,10 +122,10 @@ def run_optimization(df):
 
     # Container setup
     containers = {
-        "20ft": (33, 28080),
-        "40ft": (67, 26700),
-        "20ft HC": (37.5, 28080),
-        "40ft HC": (76, 26700)
+        "20ft": (33, 28000),
+        "40ft": (67, 26000),
+        "20ft HC": (37.5, 28000),
+        "40ft HC": (76, 26000)
     }
 
     results = {name: hybrid_fill_full(name, vol, wt) for name, (vol, wt) in containers.items()}
